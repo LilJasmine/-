@@ -1,0 +1,75 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/activity/activity",
+    "pages/affirm/affirm",
+    "pages/call/call",
+    "pages/cart/cart",
+    "pages/reads/reads",
+    "pages/time/time",
+    "pages/Volunteer_Registration/Volunteer_Registration",
+    "pages/volunteer_list/volunteer_list",
+    "pages/volunteer_management/volunteer_management",
+    "pages/set_act/set_act",
+    "pages/person/person",
+    "pages/person1/person1",
+    "pages/person2/person2",
+    "pages/person3/person3",
+    "pages/shop_detail/shop_detail",
+    "pages/orders/orders",
+    "pages/my_shop/my_shop",
+    "pages/qiandao/qiandao",
+    "pages/publish/publish"
+
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#649962",
+    "navigationBarTitleText": "森林博物馆志愿者管理系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#474747",
+    "selectedColor": "#649962",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/login.png",
+        "selectedIconPath": "images/login-actived.png"
+      },
+    {
+      "pagePath": "pages/activity/activity",
+      "text": "活动报名",
+      "iconPath": "images/activity.png",
+      "selectedIconPath": "images/activity-actived.png"
+    },
+    {
+      "pagePath": "pages/qiandao/qiandao",
+      "text": "签到签退",
+      "iconPath": "images/museum.png",
+      "selectedIconPath": "images/museum-actived.png"
+    },
+    {
+      "pagePath": "pages/time/time",
+      "text": "积分商城",
+      "iconPath": "images/time.png",
+      "selectedIconPath": "images/time-actived.png"
+    },
+    {
+      "pagePath": "pages/person/person",
+      "text": "个人中心",
+      "iconPath": "images/profile.png",
+      "selectedIconPath": "images/profile-actived.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于小程序签到功能"
+    }
+  }
+}
